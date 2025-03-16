@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Adivinhe o Numero</title>
+        <meta name="viewport" content="width=width-device-width"/>
+        <meta charset="utf-8"/>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <section class="jogo">
+            <div class="center">
+                <div class="textos">
+
+                    <h2>Adivinhe o Número</h2> 
+                    <p>Digite o número abaixo de 1 a 5, e veja se está correto</p>
+    
+                    <div class="resultado" >
+                        <p style="display: none;" id="resultado">Teste</p>
+                    </div>
+    
+                    
+    
+                </div> <!--textos-->
+    
+                <div class="input">
+                <input type="text" placeholder="digite um número" id="inputnumero"/>
+                <div>
+                <button onclick="verificarpalpite()">ENVIAR</button>
+                </div>
+                </div> <!--input-->      
+    </div> <!--center-->
+        </section>
+            
+        
+
+    </body>
+    <script src="script.js"></script>
+</html>
